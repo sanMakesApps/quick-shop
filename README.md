@@ -1,12 +1,61 @@
-# React + Vite
+# 🛒 QuickShop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**QuickShop** is a modern, responsive eCommerce web application built with React and Material UI. It provides a seamless shopping experience with optimized performance, clean architecture, and comprehensive test coverage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🛍️ Full eCommerce experience with product listing, cart, and checkout
+- 🌐 Built with [React](https://reactjs.org/) and [React Router](https://reactrouter.com/) for SPA navigation
+- 🎨 UI powered by [Material UI (MUI)](https://mui.com/) for consistent, responsive design
+- 🧠 Global state management using React Context API
+- ⚡ Performance optimizations including:
+  - Lazy loading of components
+  - Code splitting using dynamic `import()`
+  - Memoization with `React.memo`, `useMemo`, and `useCallback`
+- ✅ Unit and integration tests using [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="./assets/quickshop1.PNG" width="22%" />
+  <img src="./assets/quickshop2.PNG" width="22%" />
+  <img src="./assets/quickshop3.PNG" width="22%" />
+  <img src="./assets/quickshop4.PNG" width="22%" />
+</p>
+
+## 🎥 Demo
+
+<p align="center">
+  <img src="./assets/quickshopdemo.gif" width="80%" />
+</p>
+---
+
+## 🛠️ Tech Stack
+
+| Category       | Technology                          |
+|----------------|--------------------------------------|
+| Frontend       | React, React Router, JavaScript      |
+| UI Framework   | Material UI                          |
+| State          | React Context API                    |
+| Testing        | Jest, React Testing Library          |
+| Optimization   | Lazy loading, Code splitting, Memoization |
+
+---
+
+## 📁 Project Structure
+
+```bash
+quick-shop/
+├── assets/
+├── public/
+├── src/
+│   ├── api/
+│   ├── components/
+│   ├── context/
+│   ├── pages/
+├── package.json
+├── README.md
+└── ...
