@@ -4,20 +4,20 @@
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🛍️ Full eCommerce experience with product listing, cart, and checkout
-- 🌐 Built with [React](https://reactjs.org/) and [React Router](https://reactrouter.com/) for SPA navigation
-- 🎨 UI powered by [Material UI (MUI)](https://mui.com/) for consistent, responsive design
-- 🧠 Global state management using React Context API
-- ⚡ Performance optimizations including:
+- Full eCommerce experience with product listing, cart, and checkout
+- Built with [React](https://reactjs.org/) and [React Router](https://reactrouter.com/) for SPA navigation
+- UI powered by [Material UI (MUI)](https://mui.com/) for consistent, responsive design
+- Global state management using React Context API
+- Performance optimizations including:
   - Lazy loading of components
   - Code splitting using dynamic `import()`
   - Memoization with `React.memo`, `useMemo`, and `useCallback`
-- ✅ Unit and integration tests using [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/)
+- Unit and integration tests using [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/)
 
 ---
-## 🖼️ Screenshots
+## Screenshots
 
 <p align="center">
   <img src="./assets/quickshop1.PNG" width="22%" />
@@ -26,14 +26,14 @@
   <img src="./assets/quickshop4.PNG" width="22%" />
 </p>
 
-## 🎥 Demo
+## Demo
 
 <p align="center">
   <img src="./assets/quickshopdemo.gif" width="80%" />
 </p>
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category       | Technology                          |
 |----------------|--------------------------------------|
@@ -45,7 +45,7 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 quick-shop/
